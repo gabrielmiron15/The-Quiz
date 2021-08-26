@@ -57,7 +57,7 @@ function Questions() {
                         }
                         if (questions?.[currentQuestion + 1]?.answered || currentQuestion + 1 === questions.length) {
                             const nextQuestion = getNextQuestionIndex();
-                            if (nextQuestion != -1) {
+                            if (nextQuestion !== -1) {
                                 setCurrentQuestion(nextQuestion);
                             }
                             return;

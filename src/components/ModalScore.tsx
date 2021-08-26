@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Button, Modal } from 'semantic-ui-react';
 import { Heading, Meter } from 'grommet';
 import Context from '../store/Context';

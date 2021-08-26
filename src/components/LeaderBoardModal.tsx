@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Modal } from 'semantic-ui-react';
 import { Heading, List } from 'grommet';
 

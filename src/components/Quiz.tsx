@@ -6,7 +6,7 @@ import Questions from './Questions';
 import ModalSubmit from './ModalSubmit';
 function Quiz() {
 
-    const { settings, questions, setQuestions, answers, currentQuestion, setCurrentQuestion } = useContext(Context);
+    const { settings, questions, setQuestions, currentQuestion, setCurrentQuestion } = useContext(Context);
     const [isLoading, setIsLoading] = useState<Boolean>(false);
 
     const getQuestionsAsyncFunction = async () => {
