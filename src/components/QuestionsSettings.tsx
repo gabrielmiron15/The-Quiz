@@ -13,7 +13,7 @@ function QuestionsSettings() {
     }, [numberOfQuestions, difficulty, questionType]);
     return (
         <>
-            <Heading level={3} margin="none">Configure the questions</Heading>
+            <Heading level={3} className="mobile-text-center" margin="none">Configure the questions</Heading>
             <div className="container-settings">
                 <div className="setting-item">
                     <Heading level={4} margin="none">Number of questions</Heading>

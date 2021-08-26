@@ -87,3 +87,32 @@
     margin:30px 0;
     color: #7d4bda;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .mobile-text-center {
+        text-align: center;
+    }
+    .app {
+        svg {
+            max-height: 260px;
+        }
+        .container-settings {
+            display: block;
+            & .setting-item {
+                text-align: center;
+            }
+        }
+        .buttons-wrapper{
+            display: block;
+            & button {
+                margin:10px 0;
+                clear: right;
+                display: block;
+                &:last-of-type {
+                    margin-left:0;
+                }
+            }
+        }
+    }
+}
